@@ -1,0 +1,222 @@
+.color-buttons{
+    margin: 5px;
+    padding: 6px 25px;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.color-buttons:hover{
+    color: white;
+}
+
+#aqua{
+    background-image: linear-gradient(to bottom,cyan,darkcyan);
+}
+#aqua:hover{
+    background-image: linear-gradient(to bottom,darkcyan,rgba(0, 139, 139, 0.308));
+}
+
+#blue{
+    background-color: blue;
+}
+#blue:hover{
+    background-image: linear-gradient(to bottom,magenta,purple,black);
+}
+
+#violet{
+    background-color: violet;
+}
+#violet:hover{
+    background-image: linear-gradient(to bottom,magenta,purple,black);
+}
+
+#pink{
+    background-color: pink;
+}
+#pink:hover{
+    background-image: linear-gradient(to bottom,magenta,purple,black);
+}
+
+#red{
+    background-color: red;
+}
+#red:hover{
+    background-image: linear-gradient(to bottom,magenta,purple,black);
+}
+
+#green{
+    background-color: yellowgreen;
+}
+#green:hover{
+    background-image: linear-gradient(to bottom,magenta,purple,black);
+}
+
+#darkgreen{
+    background-color: green;
+}
+#darkgreen:hover{
+    background-image: linear-gradient(to bottom,magenta,purple,black);
+}
+
+#yellow{
+    background-color: yellow;
+    color: rgb(55, 166, 231);
+}
+#yellow:hover{
+    background-image: linear-gradient(to bottom,magenta,purple,black);
+    color: white;
+}
+
+#black{
+    background-color: black;
+}
+#black:hover{
+    background-image: linear-gradient(to bottom,magenta,purple,black);
+}
+
+
+.size-buttons{
+    background-color: coral;
+    border:pink 5px solid;
+    padding: 7px;
+    color: yellow;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.size-buttons:hover{
+    background-color: darkcyan;
+    color: cyan;
+    border:solid 5px #9ddfd3;
+    border-radius: 5px;
+}
+
+.eff-buttons{
+    background-color: rgb(216, 72, 144);
+    border:5px solid purple;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin: auto 5px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.eff-buttons:hover{
+    color: rgb(253, 217, 159);
+}
+
+.reset-button{
+    background-color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: cadetblue;
+    border: cadetblue 2px solid;
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius:50px;
+}
+.reset-button:hover{
+    border:blue 2px solid;
+}
+
+#btn-download{
+
+    background-color: rgb(139, 216, 25);
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-size: 1rem;
+    position: fixed;
+    top:240px;
+    left: 20px;
+    border: rgb(58, 189, 58) 5px solid;
+}
+
+#btn-download:hover{
+    background-color: green;
+    border: 5px solid rgb(33, 116, 33);
+}
+
+
+
+/* Home Page :-> */
+
+
+
+.start-button{
+    animation: mymove infinite 5s;
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 30px 50px;
+    border:black 5px solid;
+    position: relative;
+    top:300px;
+    left: 32%;
+    border-radius: 10px;
+}
+
+.heading{
+    animation: fade 5s;
+    text-align: center;
+    color: cyan;
+    position: relative;
+    top: 60px;
+    font-size: 100px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.info-1{
+    animation: flashl 2s;
+    position:relative;
+    top:100px;
+    text-align: center;
+    font-size: 40px;
+    color: yellow;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.info-2{
+    animation: flashr 2s;
+    position:relative;
+    top:150px;
+    text-align:center;
+    font-size: 30px;
+    color: rgba(18, 243, 10);
+}
+
+.start-button:hover{
+    color: aqua;
+    animation: mymove infinite 1s;
+}
+
+@keyframes mymove {
+    0%   {background: red;}
+    25%  {background: blue;}
+    50%  {background: yellow;}
+    75%  {background: green;}
+    100% {background: red;}
+}
+
+@keyframes fade {
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes flashl {
+    0%   {position:relative; top:100px; left:500px;}
+    100% {position:relative; top:100px; left:0px;}
+}
+
+@keyframes flashr {
+    0%   {position:relative; top:150px; right:500px;}
+    100% {position:relative; top:150px; right:0px;}
+}
+
+#main-page{
+    height: 720px;
+    background-image:linear-gradient(to bottom right,#C04848,#480048);
+}
