@@ -1,6 +1,6 @@
 # HUE-EFFECTS-DRAWING-APP
 
-![Screenshot](../master/ss/my-file-name1.png)
+![Screenshot](ss/my-file-name1.png)
 
 HUE EFFECTS DRAWING APP is a User Friendly Drawing App with 10 Unique Drawing Effects 🔥. Now enhance your Imagination and Innovative Skills and turn them into a piece of Art.
 
